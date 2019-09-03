@@ -1,0 +1,58 @@
+/* ###########################################
+ * ###### Product Card Component Start #######
+ * ######################################## */
+.card .product-top {
+    position: relative;
+}
+.card .product-top .product-overlay {
+    position: absolute;
+    top: 20%;
+    right: 4%;
+    padding: 7px 10px;
+    background-color: #fff;
+    color: rgb(65, 65, 65);
+    border-radius: 50%;
+    transform: scale(0);
+    overflow: hidden;
+    transition: all .25s;
+}
+
+.card:hover .product-overlay {
+    transform: scale(1.1);
+    overflow: hidden;
+}
+
+.card .product-top .product-overlay:hover {
+    cursor: pointer;
+    background-color: #0069D9;
+    color: #fff;
+}
+
+.card .card-body * {
+    margin: 2px;
+}
+.card .card-body {
+    padding: 5px;
+    position: relative;
+    background-color: #fff;
+    transition: all .25s;
+}
+
+.card:hover .card-body {
+    transform: translate(0, -50px);
+}
+
+.card .card-body button {
+    transform: scale(0);
+    transition: all .25s;
+}
+
+.card:hover button {
+    left: 0%;
+    right: 0%;
+    transform: scale(1);
+}
+/* ###########################################
+ * ###### Product Card Component End #######
+ * ######################################## */
+
