@@ -19,37 +19,62 @@
 
 
             <!-- ############# Product Card Component Start ################ -->
-            <div class="col-md-4 col-sm-6">
-                <div class="card border-0 text-center">
-                    <div class="product-top">
-                        <div class="product-overlay">
-                            <i class="fa fa-eye" aria-hidden="true"></i>
+            <div class="col-md-3 col-sm-6">
+                <div>
+                    <div class="card border-0 text-center">
+                        <div class="product-top">
+                            <div class="product-overlay">
+                                <!-- icon trigger modal -->
+                                <i class="fa fa-eye" aria-hidden="true" data-toggle="modal" data-target="#quickViewModal"></i>
+                            </div>
+                            <a href="#urlToProductDetailsPage">
+                                <img class="card-img-top" src="../../img/2.jpg" alt="">
+                            </a>
                         </div>
-                        <a href="#urlToProductDetailsPage">
-                            <img class="card-img-top" src="../../img/2.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="card-body">
-                        <p class="card-text text-muted">Brand</p>
-                        <span class="prodcut-review text-warning">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
-                            <i class="far fa-star"></i>
-                        </span>
-                        <h6 class="card-title font-weight-normal">Short Description</h6>
-                        <p class="product-price font-weight-bold">Price</p>
-                        <button class="btn btn-primary p-2">
-                            <i class="fa fa-shopping-basket"></i>
-                            Add to Cart
-                        </button>
+                        <div class="card-body">
+                            <p class="card-text text-muted">Brand</p>
+                            <span class="prodcut-review text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <i class="far fa-star"></i>
+                            </span>
+                            <h6 class="card-title font-weight-normal">Short Description</h6>
+                            <p class="product-price font-weight-bold">Price</p>
+                            <button class="btn btn-primary p-2">
+                                <i class="fa fa-shopping-basket"></i>
+                                Add to Cart
+                            </button>
+                        </div>
                     </div>
                 </div>
-            </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="quickViewModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                ...
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- col -->
             <!-- ############# Product Card Component End ################ -->
 
-        </div>
+        </div><!-- row -->
     </div>
 
 
