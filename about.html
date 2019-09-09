@@ -11,53 +11,111 @@
 <body>
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">The Giftery</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="categories.html">Categories</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="gifts.html">Gifts</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link d-flex justify-elements-center align-items-center" href="shoppingcart.html">
-                            <div id="cart-icon-div">
-                                <i class="fas fa-shopping-cart"></i>
-                                <span class='d-block text-center' id="cart-items">0</span>
+            <div class="container">
+                <a class="navbar-brand" href="index.html">The Giftery</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="products.html">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link d-flex justify-elements-center align-items-center" href="shoppingcart.html">
+                                <div id="cart-icon-div">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    <span class='d-block text-center' id="cart-items">0</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown d-flex justify-elements-center align-items-center">
+                           <a class="nav-link arrow-down dropdown-toggle" id="dropdownId" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                <i id='user-image' class="far fa-user"></i> 
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item">username</a>
+                                <a class="dropdown-item" href="usersettings.html">settings</a>
                             </div>
-                        </a>
-                    </li>
-                    <li class="nav-item dropdown d-flex justify-elements-center align-items-center">
-                       <a class="nav-link arrow-down dropdown-toggle" id="dropdownId" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
-                            <i id='user-image' class="far fa-user"></i> 
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="dropdownId">
-                            <a class="dropdown-item">username</a>
-                            <a class="dropdown-item" href="usersettings.html">settings</a>
-                        </div>
-                    </li>
-                </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+    <!-- About Section start -->
+
+    <section>
+        <div class="row about d-flex align-items-center ">
+            <div class="col-12">
+                <div class="container py-5 my-5">
+                    <h1 class="mt-5 pt-3">The Giftery Is a leader Store for
+                        <br> Gifts of all kinds.
+                    </h1>
+                    <br>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium<br> doloremque
+                        laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore<br> veritatis et quasi
+                        architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam<br> voluptatem quia voluptas sit
+                        aspernatur aut odit aut fugit, sed quia consequuntur<br> magni dolores eos qui ratione
+                        voluptatem sequi nesciunt neque.
+                    </p>
+                    <br>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium<br> doloremque
+                        laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore<br> veritatis et quasi
+                        architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam<br> voluptatem quia voluptas sit
+                        aspernatur aut odit aut fugit, sed quia consequuntur<br> magni dolores eos qui ratione
+                        voluptatem sequi nesciunt neque.
+                    </p>
+                </div>
             </div>
         </div>
-    </nav>
-    <!-- Navbar End -->
+        <div class="lowerpart ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <h3>OUR COMPANY STORES</h3>
+                        <br>
+                        <br>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                            doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et
+                            quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
+                            sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+                            voluptatem sequi nesciunt neque.
+                        </p>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 contact">
+                        <h3>CONTACT US</h3>
+                        <br>
+                        <br>
+                        <div>
+                            <span>Address: </span>
+                            <p>7895 Piermont Dr NE Albuquerque, NM 198866,United States of America</p>
+                            <span>Phone: </span>
+                            <p>+566 4774 9930; +566 4774 9940</p>
+                            <span>Hours: </span>
+                            <p>ALL WEEK FROM 9 AM TO 9 PM</p>
+                            <span>E-mail: </span> <a href="#">info@mydomain.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section end -->
 
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/popper.min.js"></script>
