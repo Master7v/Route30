@@ -44,9 +44,9 @@
                         </a>
                     </li>
                     <li class="nav-item dropdown d-flex justify-elements-center align-items-center">
-                       <a class="nav-link arrow-down dropdown-toggle" id="dropdownId" data-toggle="dropdown"
+                        <a class="nav-link arrow-down dropdown-toggle" id="dropdownId" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false">
-                            <i id='user-image' class="far fa-user"></i> 
+                            <i id='user-image' class="far fa-user"></i>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="dropdownId">
                             <a class="dropdown-item">username</a>
@@ -58,6 +58,7 @@
         </div>
     </nav>
     <!-- Navbar End -->
+
     <!-- header section start -->
     <header class="mt-5 py-5">
         <div class="container">
@@ -100,10 +101,10 @@
                                 <div>
                                     <div class="card border-0 text-center">
                                         <div class="product-top">
-                                            <div class="product-overlay">
-                                                <!-- icon trigger modal -->
-                                                <i class="fa fa-eye" aria-hidden="true" data-toggle="modal"
-                                                    data-target="#quickViewModal"></i>
+                                            <!-- icon trigger modal -->
+                                            <div class="product-overlay" aria-hidden="true" data-toggle="modal"
+                                            data-target="#quickViewModal">
+                                                <i class="fa fa-eye" ></i>
                                             </div>
                                             <a href="#urlToProductDetailsPage">
                                                 <img class="card-img-top" src="img/2.jpg" alt="">
@@ -119,7 +120,7 @@
                                                 <i class="far fa-star"></i>
                                             </span>
                                             <h6 class="card-title font-weight-normal">Short Description</h6>
-                                            <p class="product-price font-weight-bold">Price</p>
+                                            <div>$<span class="product-price text-info">45</span></div>
                                             <button class="btn btn-primary p-2">
                                                 <i class="fa fa-shopping-basket"></i>
                                                 Add to Cart
@@ -134,19 +135,30 @@
                                     <div class="modal-dialog" role="document">
                                         <div class="modal-content">
                                             <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
                                                 <button type="button" class="close" data-dismiss="modal"
                                                     aria-label="Close">
                                                     <span aria-hidden="true">&times;</span>
                                                 </button>
                                             </div>
                                             <div class="modal-body">
-                                                ...
-                                            </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-secondary"
-                                                    data-dismiss="modal">Close</button>
-                                                <button type="button" class="btn btn-primary">Save changes</button>
+                                                <div class="row">
+                                                    <div class="col-6">
+                                                        <img class='img-fluid' src="img/2.jpg" alt="">
+                                                    </div>
+                                                    <div class="col-6 py-3">
+                                                        <h3>Product Description</h3>
+                                                        <p class="card-text text-muted">Brand</p>
+                                                        <h4>$<span class="product-price text-info">45</span></h4>
+                                                        <p>long description long description long description 
+                                                                long description long description long description 
+                                                                long description long description long description
+                                                        </p>
+                                                        <button class="btn btn-primary p-2">
+                                                                <i class="fa fa-shopping-basket"></i>
+                                                                Add to Cart
+                                                        </button>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
