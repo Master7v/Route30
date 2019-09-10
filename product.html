@@ -2,18 +2,63 @@
 <html lang="en">
 
 <head>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/style.css">
-
-
-    <title>WorkShop</title>
+    <link rel="stylesheet" href="css/product-style.css">
+    <title>theGiftery-Amer Team</title>
 </head>
 
 <body>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">The Giftery</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-flex justify-elements-center align-items-center" href="shoppingcart.html">
+                            <div id="cart-icon-div">
+                                <i class="fas fa-shopping-cart"></i>
+                                <span class='d-block text-center' id="cart-items">0</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown d-flex justify-elements-center align-items-center">
+                        <a class="nav-link arrow-down dropdown-toggle" id="dropdownId" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            <i id='user-image' class="far fa-user"></i>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item">username</a>
+                            <a class="dropdown-item">settings</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
 
 
 
@@ -26,10 +71,10 @@
                         <div> <img src="img/img1.jpg" /> </div>
                         <div> <img src="img/img2.jpg" /> </div>
                         <div> <img src="img/img3.jpg" /> </div>
-                        <div> <img src="img/4.jpg" /> </div>
-                        <div> <img src="img/5.jpg" /> </div>
-                        <div> <img src="img/6.jpg" /> </div>
-                        <div> <img src="img/7.jpg" /> </div>
+                        <div> <img src="img/4(2).jpg" /> </div>
+                        <div> <img src="img/5(2).jpg" /> </div>
+                        <div> <img src="img/6(2).jpg" /> </div>
+                        <div> <img src="img/7(2).jpg" /> </div>
                     </div>
                 </div>
                 <div class="col-lg-6  col-sm-12">
@@ -80,9 +125,11 @@
                         <div class="row">
                             <div class="col-md-4">
                                 <div class="number-input mt-5 ">
-                                    <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()"></button>
+                                    <button
+                                        onclick="this.parentNode.querySelector('input[type=number]').stepDown()"></button>
                                     <input class="quantity" min="0" name="quantity" value="1" type="number">
-                                    <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+                                    <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                                        class="plus"></button>
                                 </div>
                             </div>
 
@@ -103,7 +150,7 @@
                             </label>
                         </div>
                         <!-- -------------------------------/Checkbox ------------------------------- 
--->
+    -->
 
 
 
@@ -134,10 +181,13 @@
                             <h6>DESCRIPTION</h6>
                             <div class="decription-content">
                                 <p>We are proud to present our best premium Shopify theme - Wokiee.</p>
-                                <p>This is multi-purpose software that can be used for any type of the store. Great variety of available options will make customization process very easy.</p>
+                                <p>This is multi-purpose software that can be used for any type of the store. Great
+                                    variety of available options will make customization process very easy.</p>
                                 <p>Please, take a look at feature list and compare with our competitors.</p>
-                                <p>You can buy our theme and start your business online with minimal time investments.</p>
-                                <p>Wokiee support DropShipping app Oberlo.Wokiee Shopify theme is powerfool tool to create personal webshop.</p>
+                                <p>You can buy our theme and start your business online with minimal time investments.
+                                </p>
+                                <p>Wokiee support DropShipping app Oberlo.Wokiee Shopify theme is powerfool tool to
+                                    create personal webshop.</p>
                             </div>
 
                             <div class="line">
@@ -173,10 +223,7 @@
 
 
                         <!-- ------------------------------------------------------------------------                        -->
-
-
                     </div>
-
                 </div>
             </div>
         </div>
@@ -184,121 +231,100 @@
 
 
 
+    <!-- Footer start  -->
     <footer>
-
-        <div class="footer my-3 ">
+        <div class="footer mt-3 py-2">
             <div class="py-2 footer-above">
                 <div class="container">
                     <div class="row align-items-center">
-                        <div class=" InTouch col-md-3">
-                            <h6>BE IN TOUCH WITH US:</h6>
+                        <div class="col-lg-3 col-md-4 col-sm-12 InTouch">
+                            <h6>BE IN TOUCH WITH US</h6>
                         </div>
-                        <div class="col-md-6  ">
+                        <div class="col-lg-6 col-md-5 col-sm-12">
                             <div class="input-group ">
-                                <input type="text" class="form-control" placeholder="Enter your Email">
+                                <input type="email" class="form-control" placeholder="Enter your Email">
                                 <div class="input-group-append">
-                                    <button class="btn" type="button" id="button-addon2">Button</button>
+                                    <button class="btn" type="button" id="button-addon2">Submit</button>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3 ">
-                            <div class="social row align-items-center justify-elements-center">
-                                <ul class="social_ico ">
-                                    <li class="ml-5 mr-3"><i class="fab fa-facebook-f "></i></li>
-                                    <li class="  mr-3"><i class="fab fa-twitter"></i></li>
-                                    <li class="  mr-3"><i class="fab fa-google-plus-g"></i></li>
-                                    <li class="  mr-3"><i class="fab fa-instagram"></i></li>
-                                    <li class="  mr-3"><i class="fab fa-pinterest-p"></i></li>
+                        <div class="col-lg-3 col-md-3 col-sm-12">
+                            <div class="social row align-items-center">
+                                <ul class="list-unstyled d-flex justify-content-between m-auto w-50">
+                                    <li>
+                                        <a class='text-white' href="#">
+                                            <i class="fab fa-facebook-f "></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class='text-white' href="#"> <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class='text-white' href="#"> <i class="fab fa-google-plus-g"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class='text-white' href="#"> <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
-
             </div>
 
             <div class="container">
-
-
                 <div class="row mt-5 footer-sections">
-                    <div class="col-md-3 col-xs-6 ">
+                    <div class="col-md-3 col-6 ">
                         <div class="footer-sections-CATEGORIES  ">
                             <ul class="CATEGORIES">
                                 <li class="MainTiltle  mb-3"> <a href="#">
                                         <h6>CATEGORIES</h6>
                                     </a> </li>
                                 <li class=""> <a href="#">Women</a> </li>
-                                <li class=""><a href="#">Women</a></li>
-                                <li class=""><a href="#">Women</a></li>
-                                <li class=""><a href="#">Women</a></li>
+                                <li class=""><a href="#">Men</a></li>
+                                <li class=""><a href="#">Babies</a></li>
+                                <li class=""><a href="#">Kids</a></li>
                             </ul>
                         </div>
                     </div>
 
-                    <div class="col-md-3 col-xs-6 ">
+                    <div class="col-md-3 col-6 ">
                         <div class="footer-sections-BUY">
                             <ul class="BUY-WITH-US">
                                 <li class="MainTiltle  mb-3"> <a href="#">
                                         <h6>BUY WITH US</h6>
                                     </a> </li>
-                                <li class=""> <a href="#">Women</a> </li>
-                                <li class=""><a href="#">Women</a></li>
-                                <li class=""><a href="#">Women</a></li>
-                                <li class=""><a href="#">Women</a></li>
+                                <li class=""> <a href="#">Gifts</a> </li>
+                                <li class=""><a href="#">Clothes</a></li>
+                                <li class=""><a href="#">T-shirts</a></li>
+                                <li class=""><a href="#">Accessories</a></li>
                             </ul>
                         </div>
                     </div>
 
-                    <div class="col-md-3 col-xs-6">
-                        <div class="footer-sections-ABOUT">
-                            <ul class="ABOUT">
-                                <li class="MainTiltle  mb-3"> <a href="#">
-                                        <h6>CATEGORIES</h6>
-                                    </a> </li>
-                                <li class=""> <a href="#">Women</a> </li>
-                                <li class=""><a href="#">Women</a></li>
-                                <li class=""><a href="#">Women</a></li>
-                                <li class=""><a href="#">Women</a></li>
-                            </ul>
+                    <div class="col-md-6 col-12">
+                        <div class="footer-sections-ABOUT ">
+                            <h6>CONTACT US</h6>
+                            <p class="text-muted">Address: 7895 Piermont Dr NE Albuquerque, NM 198866,United States of
+                                America </p>
+                            <p class="text-muted">Phone: +566 4774 9930; +566 4774 9940</p>
+                            <p class="text-muted">Hours: ALL WEEK FROM 9 AM TO 9 PM</p>
                         </div>
                     </div>
-
-
-                    <div class="col-md-3 col-xs-6 ">
-                        <div class="footer-sections-CONTACT US">
-                            <ul class="CONTACT US">
-                                <li class="MainTiltle  mb-3"> <a href="#">
-                                        <h6>CATEGORIES</h6>
-                                    </a> </li>
-                                <li class=""> <a href="#">Women</a> </li>
-                                <li class=""><a href="#">Women</a></li>
-                                <li class=""><a href="#">Women</a></li>
-                                <li class=""><a href="#">Women</a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-
                 </div>
-
-
-
             </div>
         </div>
-
-
-
-
     </footer>
-
-
-
-
+    <!-- Footer end -->
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
-    <script src="js/index.js"></script>
+    <script src="js/product.js"></script>
+
 </body>
 
 </html>

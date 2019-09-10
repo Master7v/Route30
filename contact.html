@@ -2,8 +2,15 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="css/all.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/contact-style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>theGiftery-Amer Team</title>
 </head>
@@ -11,54 +18,297 @@
 <body>
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
-            <div class="container">
-                <a class="navbar-brand" href="index.html">The Giftery</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-    
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="products.html">Products</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link d-flex justify-elements-center align-items-center" href="shoppingcart.html">
-                                <div id="cart-icon-div">
-                                    <i class="fas fa-shopping-cart"></i>
-                                    <span class='d-block text-center' id="cart-items">0</span>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="nav-item dropdown d-flex justify-elements-center align-items-center">
-                           <a class="nav-link arrow-down dropdown-toggle" id="dropdownId" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false">
-                                <i id='user-image' class="far fa-user"></i> 
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="dropdownId">
-                                <a class="dropdown-item">username</a>
-                                <a class="dropdown-item" href="usersettings.html">settings</a>
+        <div class="container">
+            <a class="navbar-brand" href="index.html">The Giftery</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-flex justify-elements-center align-items-center" href="shoppingcart.html">
+                            <div id="cart-icon-div">
+                                <i class="fas fa-shopping-cart"></i>
+                                <span class='d-block text-center' id="cart-items">0</span>
                             </div>
-                        </li>
-                    </ul>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown d-flex justify-elements-center align-items-center">
+                        <a class="nav-link arrow-down dropdown-toggle" id="dropdownId" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            <i id='user-image' class="far fa-user"></i>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item">username</a>
+                            <a class="dropdown-item">settings</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <div class="container mt-5 py-5">
+        <div class="row">
+            <div class="col-md-12 col-xs-12">
+                <div id="map"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cont2">
+        <div class="container cont">
+            <div class="row">
+                <div class="col-md-4 col-xs-12 inn">
+                    <i style="color:cornflowerblue; font-size:40px; padding: 4px;" class="fas fa-phone-alt"></i><br>
+                    <h4>LET'S HAVE A CHAT</h4>
+                    <p>+777 2345 7885</p>
+                    <p>+777 2345 7885</p>
+
+                </div>
+                <div class="col-md-4 col-xs-12 ">
+                    <i style="color:cornflowerblue; font-size:40px; padding: 4px;" class="fas fa-map-marker-alt"></i>
+                    <h4>VISIT OUR LOCATION</h4>
+                    <P>2534 Broaaus Maple Court Avenue,</P>
+                    <p>Madisonville Ky 2345</p>
+                    <p>United States Of America</p>
+                </div>
+
+                <div class="col-md-4 col-xs-12 ">
+                    <i style="color:cornflowerblue; font-size:40px; padding: 4px;" class="far fa-clock"></i>
+                    <h4>WORK TIME</h4>
+                    <P>7 days a week</P>
+                    <p>From 10PM to 6PM</p>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!--FORM-->
+    <form action="/">
+
+        <div id="gg" class="container">
+
+            <div class="row">
+                <div class="col-md-6 col--12">
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="fname">First Name</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="email" name="email" placeholder="john@example.com">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="phone"><i class="fa fa-phone-alt"></i> Phone</label>
+                        </div>
+                        <div class="col-75">
+                            <input id="phone" type="tel" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-6">
+
+                    <div class="col-25">
+                        <label for="subject">Subject</label>
+                    </div>
+                    <div class="col-75">
+
+                        <textarea id="subject" name="subject" placeholder="Write something.."
+                            style="height:200px"></textarea>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 col-12">
+                        <input class="btn btn-primary" type="submit" value="Submit">
+                    </div>
                 </div>
             </div>
-        </nav>
-        <!-- Navbar End -->
+
+
+        </div>
+
+
+    </form>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarcollapse"
+        aria-expanded="false" aria-controls="multiCollapseExample2">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+
+
+
+
+
+
+    <!-- Footer start  -->
+    <footer>
+        <div class="footer mt-3 py-2">
+            <div class="py-2 footer-above">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-3 col-md-4 col-sm-12 InTouch">
+                            <h6>BE IN TOUCH WITH US</h6>
+                        </div>
+                        <div class="col-lg-6 col-md-5 col-sm-12">
+                            <div class="input-group ">
+                                <input type="email" class="form-control" placeholder="Enter your Email">
+                                <div class="input-group-append">
+                                    <button class="btn" type="button" id="button-addon2">Submit</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12">
+                            <div class="social row align-items-center">
+                                <ul class="list-unstyled d-flex justify-content-between m-auto w-50">
+                                    <li>
+                                        <a class='text-white' href="#">
+                                            <i class="fab fa-facebook-f "></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class='text-white' href="#"> <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class='text-white' href="#"> <i class="fab fa-google-plus-g"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class='text-white' href="#"> <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+
+
+                <div class="row mt-5 footer-sections">
+                    <div class="col-md-3 col-6 ">
+                        <div class="footer-sections-CATEGORIES  ">
+                            <ul class="CATEGORIES">
+                                <li class="MainTiltle  mb-3"> <a href="#">
+                                        <h6>CATEGORIES</h6>
+                                    </a> </li>
+                                <li class=""> <a href="#">Women</a> </li>
+                                <li class=""><a href="#">Men</a></li>
+                                <li class=""><a href="#">Babies</a></li>
+                                <li class=""><a href="#">Kids</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-6 ">
+                        <div class="footer-sections-BUY">
+                            <ul class="BUY-WITH-US">
+                                <li class="MainTiltle  mb-3"> <a href="#">
+                                        <h6>BUY WITH US</h6>
+                                    </a> </li>
+                                <li class=""> <a href="#">Gifts</a> </li>
+                                <li class=""><a href="#">Clothes</a></li>
+                                <li class=""><a href="#">T-shirts</a></li>
+                                <li class=""><a href="#">Accessories</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-12">
+                        <div class="footer-sections-ABOUT ">
+                            <h6>CONTACT US</h6>
+                            <p class="text-muted">Address: 7895 Piermont Dr NE Albuquerque, NM 198866,United States of
+                                America </p>
+                            <p class="text-muted">Phone: +566 4774 9930; +566 4774 9940</p>
+                            <p class="text-muted">Hours: ALL WEEK FROM 9 AM TO 9 PM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer end -->
+    <script>
+        function initMap() {
+            //map options
+            var options = {
+                zoom: 8,
+                center: {
+                    lat: 29.924526,
+                    lng: 31.205753
+                }
+            }
+            //new map
+            var map = new google.maps.Map(document.getElementById('map'), options);
+            //add marker
+            var marker = new google.maps.marker({
+                position: {
+                    lat: 30.60427,
+                    lng: 32.27225
+                },
+                map: map,
+                icon: 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png'
+            });
+            var infoWindow = new google.maps.InfoWindow({
+                content: '<h1>Ismailia</h1>'
+            })
+            marker.addListener('click', function () {
+                info
+
+                Window.open(map, marker);
+            });
+        }
+
+    </script>
+
+
+
+
+
+
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCscEt--95g8cu5XF0oYtvfYTboHiqQvu0&callback=initMap"></script>
+
+    <script src="js/all.min.js"></script>
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-
+    <script src="js/contact.js"></script>
 </body>
 
 </html>

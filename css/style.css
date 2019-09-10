@@ -36,10 +36,15 @@
     color: rgba(54, 130, 254, 0.8);
 }
 
-.navbar .nav-item .nav-link.active {
+.navbar .nav-item.active .nav-link {
     color: rgb(54, 130, 254);
-
 }
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav 
+.nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark
+ .navbar-nav .show>.nav-link {
+    color: rgb(54, 130, 254);
+ }
 
 #cart-icon-div {
     position: relative;
@@ -211,9 +216,15 @@
 * ######################################## */
  
  
+
+/* ###########################################
+ *  ###### Products Slider Start #######     */
+
+
+/*   ###### Porducts Slider End #######
+* ######################################## */
  
-
-
+ 
 /* ###########################################
  * ###### Product Card Component Start ####### */
 .card .product-top {
@@ -280,6 +291,27 @@
 
 
 
+/* ###########################################
+ * ###### Products Slider Start ####### */
+.carousel-control-prev, .carousel-control-next {
+  background-color: #0069D9;
+  top: 30%;
+  bottom: 60%;
+  width: 50px;
+}
+
+.carousel-control-prev {
+  left: 40px;
+}
+
+.carousel-control-next {
+  right: 40px;
+}
+/* ###### Products Slider End  #######
+ * ######################################## */
+
+
+
 
 
 /* ###########################################
@@ -288,8 +320,6 @@
     font-family: 'Hind', sans-serif;
 }
 
-
-/*foursec1*/
 .foursec1 {
     background-image: url(../img/demo04_05_600x.jpg);
     background-size: cover;
@@ -332,5 +362,66 @@
     padding: 30px 100px;
 }
 /* ###### 4th Section End #######
+ * ######################################## */
+
+
+ 
+
+
+/* ###########################################
+ * ###### footer section Start ####### */
+ .footer-above
+ {
+     background: #2879fe;
+ }
+ .footer .InTouch h6
+ {
+     color: #fff;
+ }
+ 
+ #button-addon2
+ {
+  background: black;
+  color: #fff;
+ }
+ .social_ico {
+     margin-bottom: 0;
+ }
+ .social .social_ico li { color: #fff; list-style: none; display: inline-block; }
+ .social .social_ico li:hover{  color: black; }
+ 
+ 
+ .footer-sections li
+ {
+     list-style: none;
+ }
+ .footer-sections a 
+ {
+    color: #888888; 
+     text-decoration: none;
+ }
+ .footer-sections .MainTiltle a
+ {
+     color:#191919;
+ }
+ 
+ .footer-sections  a:hover{  color: #2879fe; }
+ 
+ 
+ @media (max-width:380px){
+     .footer-sections{
+ /*        text-align: center;*/
+         font-size: 9px;
+         
+     }
+     .footer-sections .MainTiltle a{
+         margin-bottom: 3px;
+         
+     }
+     .footer-above{
+         display: none;
+     }
+      }
+/* ###### footer Section End #######
  * ######################################## */
 
