@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>theGiftery-Amer Team</title>
+    <title>theGiftery-Amer Team - Home Page</title>
 </head>
 
 <body>
@@ -15,7 +17,8 @@
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
         <div class="container">
             <a class="navbar-brand" href="index.html">The Giftery</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -42,7 +45,8 @@
                         </a>
                     </li>
                     <li class="nav-item dropdown d-flex justify-elements-center align-items-center">
-                        <a class="nav-link arrow-down dropdown-toggle" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link arrow-down dropdown-toggle" id="dropdownId" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
                             <i id='user-image' class="far fa-user"></i>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="dropdownId">
@@ -104,41 +108,43 @@
     </header>
     <!-- header section end -->
 
-    <!-- products slider start for men -->
-    <section>
-        <!-- Modal -->
-        <div class="modal fade" id="quickViewModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="row">
-                            <div class="col-6">
-                                <img class='img-fluid' src="img/2.jpg" alt="">
-                            </div>
-                            <div class="col-6 py-3">
-                                <h3>Product Description</h3>
-                                <p class="card-text text-muted">Brand</p>
-                                <h4>$<span class="product-price text-info">45</span></h4>
-                                <p>long description long description long description
-                                    long description long description long description
-                                    long description long description long description
-                                </p>
-                                <button class="btn btn-primary p-2">
-                                    <i class="fa fa-shopping-basket"></i>
-                                    Add to Cart
-                                </button>
-                            </div>
+    <!-- Modal -->
+    <div class="modal fade" id="quickViewModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-6">
+                            <img class='img-fluid' src="" alt="">
+                        </div>
+                        <div class="col-6 py-3">
+                            <h3 class="modalDesc"></h3>
+                            <p class="modalBrand card-text text-muted"></p>
+                            <h4>$<span class="product-price text-info"></span></h4>
+                            <p>long description long description long description
+                                long description long description long description
+                                long description long description long description
+                            </p>
+                            <button class="btn btn-primary p-2">
+                                <i class="fa fa-shopping-basket"></i>
+                                Add to Cart
+                            </button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Modal end -->
+    </div>
+    <!-- Modal end -->
+
+    <!-- products slider start for men -->
+    <section>
         <div class="container">
             <h3>Recommended for Men</h3>
             <hr>
@@ -146,387 +152,11 @@
         <div id="carousel1" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner container">
                 <div class="carousel-item active">
-                    <div class="row">
-                        <!-- product component start -->
-                        <div class="col-md-3 col-sm-6">
-                            <div class="card border-0 text-center">
-                                <div class="product-top">
-                                    <!-- icon trigger modal -->
-                                    <div class="product-overlay" aria-hidden="true" data-toggle="modal" data-target="#quickViewModal1">
-                                        <i class="fa fa-eye"></i>
-                                    </div>
-                                    <a href="product.html">
-                                        <img class="card-img-top" src="img/2.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="card-body">
-                                    <p class="card-text text-muted">Brand</p>
-                                    <span class="prodcut-review text-warning">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star-half-alt"></i>
-                                        <i class="far fa-star"></i>
-                                    </span>
-                                    <h6 class="card-title font-weight-normal">Short Description</h6>
-                                    <div>$<span class="product-price text-info">45</span></div>
-                                    <button class="btn btn-primary p-2">
-                                        <i class="fa fa-shopping-basket"></i>
-                                        Add to Cart
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- product component end -->
-                        <!-- product component start -->
-                        <div class="col-md-3 col-sm-6">
-                            <div class="card border-0 text-center">
-                                <div class="product-top">
-                                    <!-- icon trigger modal -->
-                                    <div class="product-overlay" aria-hidden="true" data-toggle="modal" data-target="#quickViewModal1">
-                                        <i class="fa fa-eye"></i>
-                                    </div>
-                                    <a href="product.html">
-                                        <img class="card-img-top" src="img/2.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="card-body">
-                                    <p class="card-text text-muted">Brand</p>
-                                    <span class="prodcut-review text-warning">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star-half-alt"></i>
-                                        <i class="far fa-star"></i>
-                                    </span>
-                                    <h6 class="card-title font-weight-normal">Short Description</h6>
-                                    <div>$<span class="product-price text-info">45</span></div>
-                                    <button class="btn btn-primary p-2">
-                                        <i class="fa fa-shopping-basket"></i>
-                                        Add to Cart
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- product component end -->
-                        <!-- product component start -->
-                        <div class="col-md-3 col-sm-6">
-                            <div class="card border-0 text-center">
-                                <div class="product-top">
-                                    <!-- icon trigger modal -->
-                                    <div class="product-overlay" aria-hidden="true" data-toggle="modal" data-target="#quickViewModal1">
-                                        <i class="fa fa-eye"></i>
-                                    </div>
-                                    <a href="product.html">
-                                        <img class="card-img-top" src="img/2.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="card-body">
-                                    <p class="card-text text-muted">Brand</p>
-                                    <span class="prodcut-review text-warning">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star-half-alt"></i>
-                                        <i class="far fa-star"></i>
-                                    </span>
-                                    <h6 class="card-title font-weight-normal">Short Description</h6>
-                                    <div>$<span class="product-price text-info">45</span></div>
-                                    <button class="btn btn-primary p-2">
-                                        <i class="fa fa-shopping-basket"></i>
-                                        Add to Cart
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- product component end -->
-                        <!-- product component start -->
-                        <div class="col-md-3 col-sm-6">
-                            <div class="card border-0 text-center">
-                                <div class="product-top">
-                                    <!-- icon trigger modal -->
-                                    <div class="product-overlay" aria-hidden="true" data-toggle="modal" data-target="#quickViewModal1">
-                                        <i class="fa fa-eye"></i>
-                                    </div>
-                                    <a href="product.html">
-                                        <img class="card-img-top" src="img/2.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="card-body">
-                                    <p class="card-text text-muted">Brand</p>
-                                    <span class="prodcut-review text-warning">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star-half-alt"></i>
-                                        <i class="far fa-star"></i>
-                                    </span>
-                                    <h6 class="card-title font-weight-normal">Short Description</h6>
-                                    <div>$<span class="product-price text-info">45</span></div>
-                                    <button class="btn btn-primary p-2">
-                                        <i class="fa fa-shopping-basket"></i>
-                                        Add to Cart
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- product component end -->
+                    <div class="row first-row">
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="row">
-                        <!-- product component start -->
-                        <div class="col-md-3 col-sm-6">
-                            <div class="card border-0 text-center">
-                                <div class="product-top">
-                                    <!-- icon trigger modal -->
-                                    <div class="product-overlay" aria-hidden="true" data-toggle="modal" data-target="#quickViewModal1">
-                                        <i class="fa fa-eye"></i>
-                                    </div>
-                                    <a href="product.html">
-                                        <img class="card-img-top" src="img/2.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="card-body">
-                                    <p class="card-text text-muted">Brand</p>
-                                    <span class="prodcut-review text-warning">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star-half-alt"></i>
-                                        <i class="far fa-star"></i>
-                                    </span>
-                                    <h6 class="card-title font-weight-normal">Short Description</h6>
-                                    <div>$<span class="product-price text-info">45</span></div>
-                                    <button class="btn btn-primary p-2">
-                                        <i class="fa fa-shopping-basket"></i>
-                                        Add to Cart
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- product component end -->
-                        <!-- product component start -->
-                        <div class="col-md-3 col-sm-6">
-                            <div class="card border-0 text-center">
-                                <div class="product-top">
-                                    <!-- icon trigger modal -->
-                                    <div class="product-overlay" aria-hidden="true" data-toggle="modal" data-target="#quickViewModal1">
-                                        <i class="fa fa-eye"></i>
-                                    </div>
-                                    <a href="product.html">
-                                        <img class="card-img-top" src="img/2.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="card-body">
-                                    <p class="card-text text-muted">Brand</p>
-                                    <span class="prodcut-review text-warning">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star-half-alt"></i>
-                                        <i class="far fa-star"></i>
-                                    </span>
-                                    <h6 class="card-title font-weight-normal">Short Description</h6>
-                                    <div>$<span class="product-price text-info">45</span></div>
-                                    <button class="btn btn-primary p-2">
-                                        <i class="fa fa-shopping-basket"></i>
-                                        Add to Cart
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- product component end -->
-                        <!-- product component start -->
-                        <div class="col-md-3 col-sm-6">
-                            <div class="card border-0 text-center">
-                                <div class="product-top">
-                                    <!-- icon trigger modal -->
-                                    <div class="product-overlay" aria-hidden="true" data-toggle="modal" data-target="#quickViewModal1">
-                                        <i class="fa fa-eye"></i>
-                                    </div>
-                                    <a href="product.html">
-                                        <img class="card-img-top" src="img/2.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="card-body">
-                                    <p class="card-text text-muted">Brand</p>
-                                    <span class="prodcut-review text-warning">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star-half-alt"></i>
-                                        <i class="far fa-star"></i>
-                                    </span>
-                                    <h6 class="card-title font-weight-normal">Short Description</h6>
-                                    <div>$<span class="product-price text-info">45</span></div>
-                                    <button class="btn btn-primary p-2">
-                                        <i class="fa fa-shopping-basket"></i>
-                                        Add to Cart
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- product component end -->
-                        <!-- product component start -->
-                        <div class="col-md-3 col-sm-6">
-                            <div class="card border-0 text-center">
-                                <div class="product-top">
-                                    <!-- icon trigger modal -->
-                                    <div class="product-overlay" aria-hidden="true" data-toggle="modal" data-target="#quickViewModal1">
-                                        <i class="fa fa-eye"></i>
-                                    </div>
-                                    <a href="product.html">
-                                        <img class="card-img-top" src="img/2.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="card-body">
-                                    <p class="card-text text-muted">Brand</p>
-                                    <span class="prodcut-review text-warning">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star-half-alt"></i>
-                                        <i class="far fa-star"></i>
-                                    </span>
-                                    <h6 class="card-title font-weight-normal">Short Description</h6>
-                                    <div>$<span class="product-price text-info">45</span></div>
-                                    <button class="btn btn-primary p-2">
-                                        <i class="fa fa-shopping-basket"></i>
-                                        Add to Cart
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- product component end -->
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="row">
-                        <!-- product component start -->
-                        <div class="col-md-3 col-sm-6">
-                            <div class="card border-0 text-center">
-                                <div class="product-top">
-                                    <!-- icon trigger modal -->
-                                    <div class="product-overlay" aria-hidden="true" data-toggle="modal" data-target="#quickViewModal1">
-                                        <i class="fa fa-eye"></i>
-                                    </div>
-                                    <a href="product.html">
-                                        <img class="card-img-top" src="img/2.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="card-body">
-                                    <p class="card-text text-muted">Brand</p>
-                                    <span class="prodcut-review text-warning">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star-half-alt"></i>
-                                        <i class="far fa-star"></i>
-                                    </span>
-                                    <h6 class="card-title font-weight-normal">Short Description</h6>
-                                    <div>$<span class="product-price text-info">45</span></div>
-                                    <button class="btn btn-primary p-2">
-                                        <i class="fa fa-shopping-basket"></i>
-                                        Add to Cart
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- product component end -->
-                        <!-- product component start -->
-                        <div class="col-md-3 col-sm-6">
-                            <div class="card border-0 text-center">
-                                <div class="product-top">
-                                    <!-- icon trigger modal -->
-                                    <div class="product-overlay" aria-hidden="true" data-toggle="modal" data-target="#quickViewModal1">
-                                        <i class="fa fa-eye"></i>
-                                    </div>
-                                    <a href="product.html">
-                                        <img class="card-img-top" src="img/2.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="card-body">
-                                    <p class="card-text text-muted">Brand</p>
-                                    <span class="prodcut-review text-warning">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star-half-alt"></i>
-                                        <i class="far fa-star"></i>
-                                    </span>
-                                    <h6 class="card-title font-weight-normal">Short Description</h6>
-                                    <div>$<span class="product-price text-info">45</span></div>
-                                    <button class="btn btn-primary p-2">
-                                        <i class="fa fa-shopping-basket"></i>
-                                        Add to Cart
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- product component end -->
-                        <!-- product component start -->
-                        <div class="col-md-3 col-sm-6">
-                            <div class="card border-0 text-center">
-                                <div class="product-top">
-                                    <!-- icon trigger modal -->
-                                    <div class="product-overlay" aria-hidden="true" data-toggle="modal" data-target="#quickViewModal1">
-                                        <i class="fa fa-eye"></i>
-                                    </div>
-                                    <a href="product.html">
-                                        <img class="card-img-top" src="img/2.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="card-body">
-                                    <p class="card-text text-muted">Brand</p>
-                                    <span class="prodcut-review text-warning">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star-half-alt"></i>
-                                        <i class="far fa-star"></i>
-                                    </span>
-                                    <h6 class="card-title font-weight-normal">Short Description</h6>
-                                    <div>$<span class="product-price text-info">45</span></div>
-                                    <button class="btn btn-primary p-2">
-                                        <i class="fa fa-shopping-basket"></i>
-                                        Add to Cart
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- product component end -->
-                        <!-- product component start -->
-                        <div class="col-md-3 col-sm-6">
-                            <div class="card border-0 text-center">
-                                <div class="product-top">
-                                    <!-- icon trigger modal -->
-                                    <div class="product-overlay" aria-hidden="true" data-toggle="modal" data-target="#quickViewModal1">
-                                        <i class="fa fa-eye"></i>
-                                    </div>
-                                    <a href="product.html">
-                                        <img class="card-img-top" src="img/2.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="card-body">
-                                    <p class="card-text text-muted">Brand</p>
-                                    <span class="prodcut-review text-warning">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star-half-alt"></i>
-                                        <i class="far fa-star"></i>
-                                    </span>
-                                    <h6 class="card-title font-weight-normal">Short Description</h6>
-                                    <div>$<span class="product-price text-info">45</span></div>
-                                    <button class="btn btn-primary p-2">
-                                        <i class="fa fa-shopping-basket"></i>
-                                        Add to Cart
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- product component end -->
+                    <div class="row second-row">
                     </div>
                 </div>
             </div>
@@ -544,39 +174,6 @@
 
     <!-- products slider start for women -->
     <section>
-        <!-- Modal 2 -->
-        <div class="modal fade" id="quickViewModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="row">
-                            <div class="col-6">
-                                <img class='img-fluid' src="img/22.jpg" alt="">
-                            </div>
-                            <div class="col-6 py-3">
-                                <h3>Product Description</h3>
-                                <p class="card-text text-muted">Brand</p>
-                                <h4>$<span class="product-price text-info">45</span></h4>
-                                <p>long description long description long description
-                                    long description long description long description
-                                    long description long description long description
-                                </p>
-                                <button class="btn btn-primary p-2">
-                                    <i class="fa fa-shopping-basket"></i>
-                                    Add to Cart
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Modal end -->
         <div class="container">
             <h3>Recommended for Women</h3>
             <hr>
@@ -584,387 +181,11 @@
         <div id="carousel2" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner container">
                 <div class="carousel-item active">
-                    <div class="row">
-                        <!-- product component start -->
-                        <div class="col-md-3 col-sm-6">
-                            <div class="card border-0 text-center">
-                                <div class="product-top">
-                                    <!-- icon trigger modal -->
-                                    <div class="product-overlay" aria-hidden="true" data-toggle="modal" data-target="#quickViewModal2">
-                                        <i class="fa fa-eye"></i>
-                                    </div>
-                                    <a href="product.html">
-                                        <img class="card-img-top" src="img/22.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="card-body">
-                                    <p class="card-text text-muted">Brand</p>
-                                    <span class="prodcut-review text-warning">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star-half-alt"></i>
-                                        <i class="far fa-star"></i>
-                                    </span>
-                                    <h6 class="card-title font-weight-normal">Short Description</h6>
-                                    <div>$<span class="product-price text-info">45</span></div>
-                                    <button class="btn btn-primary p-2">
-                                        <i class="fa fa-shopping-basket"></i>
-                                        Add to Cart
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- product component end -->
-                        <!-- product component start -->
-                        <div class="col-md-3 col-sm-6">
-                            <div class="card border-0 text-center">
-                                <div class="product-top">
-                                    <!-- icon trigger modal -->
-                                    <div class="product-overlay" aria-hidden="true" data-toggle="modal" data-target="#quickViewModal2">
-                                        <i class="fa fa-eye"></i>
-                                    </div>
-                                    <a href="product.html">
-                                        <img class="card-img-top" src="img/22.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="card-body">
-                                    <p class="card-text text-muted">Brand</p>
-                                    <span class="prodcut-review text-warning">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star-half-alt"></i>
-                                        <i class="far fa-star"></i>
-                                    </span>
-                                    <h6 class="card-title font-weight-normal">Short Description</h6>
-                                    <div>$<span class="product-price text-info">45</span></div>
-                                    <button class="btn btn-primary p-2">
-                                        <i class="fa fa-shopping-basket"></i>
-                                        Add to Cart
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- product component end -->
-                        <!-- product component start -->
-                        <div class="col-md-3 col-sm-6">
-                            <div class="card border-0 text-center">
-                                <div class="product-top">
-                                    <!-- icon trigger modal -->
-                                    <div class="product-overlay" aria-hidden="true" data-toggle="modal" data-target="#quickViewModal2">
-                                        <i class="fa fa-eye"></i>
-                                    </div>
-                                    <a href="product.html">
-                                        <img class="card-img-top" src="img/22.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="card-body">
-                                    <p class="card-text text-muted">Brand</p>
-                                    <span class="prodcut-review text-warning">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star-half-alt"></i>
-                                        <i class="far fa-star"></i>
-                                    </span>
-                                    <h6 class="card-title font-weight-normal">Short Description</h6>
-                                    <div>$<span class="product-price text-info">45</span></div>
-                                    <button class="btn btn-primary p-2">
-                                        <i class="fa fa-shopping-basket"></i>
-                                        Add to Cart
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- product component end -->
-                        <!-- product component start -->
-                        <div class="col-md-3 col-sm-6">
-                            <div class="card border-0 text-center">
-                                <div class="product-top">
-                                    <!-- icon trigger modal -->
-                                    <div class="product-overlay" aria-hidden="true" data-toggle="modal" data-target="#quickViewModal2">
-                                        <i class="fa fa-eye"></i>
-                                    </div>
-                                    <a href="product.html">
-                                        <img class="card-img-top" src="img/22.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="card-body">
-                                    <p class="card-text text-muted">Brand</p>
-                                    <span class="prodcut-review text-warning">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star-half-alt"></i>
-                                        <i class="far fa-star"></i>
-                                    </span>
-                                    <h6 class="card-title font-weight-normal">Short Description</h6>
-                                    <div>$<span class="product-price text-info">45</span></div>
-                                    <button class="btn btn-primary p-2">
-                                        <i class="fa fa-shopping-basket"></i>
-                                        Add to Cart
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- product component end -->
+                    <div class="row first-row">
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="row">
-                        <!-- product component start -->
-                        <div class="col-md-3 col-sm-6">
-                            <div class="card border-0 text-center">
-                                <div class="product-top">
-                                    <!-- icon trigger modal -->
-                                    <div class="product-overlay" aria-hidden="true" data-toggle="modal" data-target="#quickViewModal2">
-                                        <i class="fa fa-eye"></i>
-                                    </div>
-                                    <a href="product.html">
-                                        <img class="card-img-top" src="img/22.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="card-body">
-                                    <p class="card-text text-muted">Brand</p>
-                                    <span class="prodcut-review text-warning">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star-half-alt"></i>
-                                        <i class="far fa-star"></i>
-                                    </span>
-                                    <h6 class="card-title font-weight-normal">Short Description</h6>
-                                    <div>$<span class="product-price text-info">45</span></div>
-                                    <button class="btn btn-primary p-2">
-                                        <i class="fa fa-shopping-basket"></i>
-                                        Add to Cart
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- product component end -->
-                        <!-- product component start -->
-                        <div class="col-md-3 col-sm-6">
-                            <div class="card border-0 text-center">
-                                <div class="product-top">
-                                    <!-- icon trigger modal -->
-                                    <div class="product-overlay" aria-hidden="true" data-toggle="modal" data-target="#quickViewModal2">
-                                        <i class="fa fa-eye"></i>
-                                    </div>
-                                    <a href="product.html">
-                                        <img class="card-img-top" src="img/22.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="card-body">
-                                    <p class="card-text text-muted">Brand</p>
-                                    <span class="prodcut-review text-warning">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star-half-alt"></i>
-                                        <i class="far fa-star"></i>
-                                    </span>
-                                    <h6 class="card-title font-weight-normal">Short Description</h6>
-                                    <div>$<span class="product-price text-info">45</span></div>
-                                    <button class="btn btn-primary p-2">
-                                        <i class="fa fa-shopping-basket"></i>
-                                        Add to Cart
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- product component end -->
-                        <!-- product component start -->
-                        <div class="col-md-3 col-sm-6">
-                            <div class="card border-0 text-center">
-                                <div class="product-top">
-                                    <!-- icon trigger modal -->
-                                    <div class="product-overlay" aria-hidden="true" data-toggle="modal" data-target="#quickViewModal2">
-                                        <i class="fa fa-eye"></i>
-                                    </div>
-                                    <a href="product.html">
-                                        <img class="card-img-top" src="img/22.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="card-body">
-                                    <p class="card-text text-muted">Brand</p>
-                                    <span class="prodcut-review text-warning">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star-half-alt"></i>
-                                        <i class="far fa-star"></i>
-                                    </span>
-                                    <h6 class="card-title font-weight-normal">Short Description</h6>
-                                    <div>$<span class="product-price text-info">45</span></div>
-                                    <button class="btn btn-primary p-2">
-                                        <i class="fa fa-shopping-basket"></i>
-                                        Add to Cart
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- product component end -->
-                        <!-- product component start -->
-                        <div class="col-md-3 col-sm-6">
-                            <div class="card border-0 text-center">
-                                <div class="product-top">
-                                    <!-- icon trigger modal -->
-                                    <div class="product-overlay" aria-hidden="true" data-toggle="modal" data-target="#quickViewModal2">
-                                        <i class="fa fa-eye"></i>
-                                    </div>
-                                    <a href="product.html">
-                                        <img class="card-img-top" src="img/22.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="card-body">
-                                    <p class="card-text text-muted">Brand</p>
-                                    <span class="prodcut-review text-warning">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star-half-alt"></i>
-                                        <i class="far fa-star"></i>
-                                    </span>
-                                    <h6 class="card-title font-weight-normal">Short Description</h6>
-                                    <div>$<span class="product-price text-info">45</span></div>
-                                    <button class="btn btn-primary p-2">
-                                        <i class="fa fa-shopping-basket"></i>
-                                        Add to Cart
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- product component end -->
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="row">
-                        <!-- product component start -->
-                        <div class="col-md-3 col-sm-6">
-                            <div class="card border-0 text-center">
-                                <div class="product-top">
-                                    <!-- icon trigger modal -->
-                                    <div class="product-overlay" aria-hidden="true" data-toggle="modal" data-target="#quickViewModal2">
-                                        <i class="fa fa-eye"></i>
-                                    </div>
-                                    <a href="product.html">
-                                        <img class="card-img-top" src="img/22.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="card-body">
-                                    <p class="card-text text-muted">Brand</p>
-                                    <span class="prodcut-review text-warning">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star-half-alt"></i>
-                                        <i class="far fa-star"></i>
-                                    </span>
-                                    <h6 class="card-title font-weight-normal">Short Description</h6>
-                                    <div>$<span class="product-price text-info">45</span></div>
-                                    <button class="btn btn-primary p-2">
-                                        <i class="fa fa-shopping-basket"></i>
-                                        Add to Cart
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- product component end -->
-                        <!-- product component start -->
-                        <div class="col-md-3 col-sm-6">
-                            <div class="card border-0 text-center">
-                                <div class="product-top">
-                                    <!-- icon trigger modal -->
-                                    <div class="product-overlay" aria-hidden="true" data-toggle="modal" data-target="#quickViewModal2">
-                                        <i class="fa fa-eye"></i>
-                                    </div>
-                                    <a href="product.html">
-                                        <img class="card-img-top" src="img/22.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="card-body">
-                                    <p class="card-text text-muted">Brand</p>
-                                    <span class="prodcut-review text-warning">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star-half-alt"></i>
-                                        <i class="far fa-star"></i>
-                                    </span>
-                                    <h6 class="card-title font-weight-normal">Short Description</h6>
-                                    <div>$<span class="product-price text-info">45</span></div>
-                                    <button class="btn btn-primary p-2">
-                                        <i class="fa fa-shopping-basket"></i>
-                                        Add to Cart
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- product component end -->
-                        <!-- product component start -->
-                        <div class="col-md-3 col-sm-6">
-                            <div class="card border-0 text-center">
-                                <div class="product-top">
-                                    <!-- icon trigger modal -->
-                                    <div class="product-overlay" aria-hidden="true" data-toggle="modal" data-target="#quickViewModal2">
-                                        <i class="fa fa-eye"></i>
-                                    </div>
-                                    <a href="product.html">
-                                        <img class="card-img-top" src="img/22.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="card-body">
-                                    <p class="card-text text-muted">Brand</p>
-                                    <span class="prodcut-review text-warning">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star-half-alt"></i>
-                                        <i class="far fa-star"></i>
-                                    </span>
-                                    <h6 class="card-title font-weight-normal">Short Description</h6>
-                                    <div>$<span class="product-price text-info">45</span></div>
-                                    <button class="btn btn-primary p-2">
-                                        <i class="fa fa-shopping-basket"></i>
-                                        Add to Cart
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- product component end -->
-                        <!-- product component start -->
-                        <div class="col-md-3 col-sm-6">
-                            <div class="card border-0 text-center">
-                                <div class="product-top">
-                                    <!-- icon trigger modal -->
-                                    <div class="product-overlay" aria-hidden="true" data-toggle="modal" data-target="#quickViewModal2">
-                                        <i class="fa fa-eye"></i>
-                                    </div>
-                                    <a href="product.html">
-                                        <img class="card-img-top" src="img/22.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="card-body">
-                                    <p class="card-text text-muted">Brand</p>
-                                    <span class="prodcut-review text-warning">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star-half-alt"></i>
-                                        <i class="far fa-star"></i>
-                                    </span>
-                                    <h6 class="card-title font-weight-normal">Short Description</h6>
-                                    <div>$<span class="product-price text-info">45</span></div>
-                                    <button class="btn btn-primary p-2">
-                                        <i class="fa fa-shopping-basket"></i>
-                                        Add to Cart
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- product component end -->
+                    <div class="row second-row">
                     </div>
                 </div>
             </div>
@@ -1108,8 +329,8 @@
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
-
 </body>
 
 </html>

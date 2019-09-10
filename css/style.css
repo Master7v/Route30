@@ -425,3 +425,26 @@
 /* ###### footer Section End #######
  * ######################################## */
 
+
+
+
+
+
+
+ /* ###########################################
+ * ###### shopping cart Start ####### */
+ #shopping-cart .cart {
+     font-size: 7vw;
+ }
+
+ /* ###### shopping cart End #######
+ * ######################################## */
+
+ #owl-demo .item{
+    margin: 3px;
+  }
+  #owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
