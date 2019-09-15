@@ -204,8 +204,8 @@
     background-image: url(../img/about_01.png);
     background-size: cover;
     background-position: center;
-    background-size: cover;
     color: #fff;
+    margin: 0 !important; /* to fix horizontal scroll*/
 }
 
 .lowerpart
